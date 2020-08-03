@@ -1,8 +1,8 @@
 import { gql } from '@carv/runtime'
 
-export const fetchMe = gql`
-  query FetchMe {
-    me {
+export const fetchViewer = gql`
+  query FetchViewer {
+    viewer {
       id
       firstName
       lastName
